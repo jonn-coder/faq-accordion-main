@@ -15,14 +15,14 @@ body {
   place-content: center;
   min-height: 100vh;
   background-color: hsl(275, 100%, 97%);
-  background-image: url("/assets/images/background-pattern-mobile.svg");
+  background-image: url("assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
   padding: 8.85em 1.4em;
 }
 @media screen and (min-width: 768px) {
   body {
-    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-image: url(assets/images/background-pattern-desktop.svg);
     padding: 0;
   }
 }
@@ -125,7 +125,7 @@ body {
   }
 }
 .container .faqs .faq .active img {
-  content: url(/assets/images/icon-minus.svg);
+  content: url(assets/images/icon-minus.svg);
 }
 @media screen and (min-width: 768px) {
   .container {
